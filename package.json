@@ -1,0 +1,24 @@
+{
+    "name": "next-auth-monorepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThangHuuVu/next-auth-monorepo.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ThangHuuVu/next-auth-monorepo/issues"
+    },
+    "homepage": "https://github.com/ThangHuuVu/next-auth-monorepo#readme"
+}

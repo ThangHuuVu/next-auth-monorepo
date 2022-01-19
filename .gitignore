@@ -1,0 +1,66 @@
+# Misc
+.DS_Store
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+yarn.lock
+
+# Dependencies
+node_modules
+
+# Build dirs
+.next
+/build
+/dist
+
+# Generated files
+.docusaurus
+.cache-loader
+/providers
+/src/providers/oauth-types.ts
+/client
+/css
+/lib
+/core
+/jwt
+/react
+/adapters.d.ts
+/index.d.ts
+/index.js
+/next
+
+# Development app
+app/src/css
+app/package-lock.json
+app/yarn.lock
+app/prisma/migrations
+app/prisma/dev.db*
+app/dist
+app/next-auth
+
+# VS
+/.vs/slnx.sqlite-journal
+/.vs/slnx.sqlite
+/.vs
+.vscode
+
+# Jetbrains
+.idea
+
+# GitHub Actions runner
+/actions-runner
+/_work
+
+# Prisma migrations
+/prisma/migrations
+
+# Tests
+/coverage
